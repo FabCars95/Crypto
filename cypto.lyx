@@ -1,0 +1,457 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+HRule}{
+\backslash
+rule{
+\backslash
+linewidth}{0.5mm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+LARGE Politecnico di Milano}
+\backslash
+
+\backslash
+[1.5cm] 
+\backslash
+textsc{
+\backslash
+Large Crypto}
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+Large Short Summary}
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4
+\backslash
+textwidth} 
+\backslash
+begin{flushleft} 
+\backslash
+large 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Authors:}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{FabC07} 
+\backslash
+newline 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft} 
+\backslash
+end{minipage}
+\end_layout
+
+\begin_layout Plain Layout
+
+~
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4
+\backslash
+textwidth} 
+\backslash
+begin{flushright} 
+\backslash
+large 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright} 
+\backslash
+end{minipage}
+\backslash
+
+\backslash
+[3cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/fabcars/Documents/git/computer_security/logo/logopm.svg
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vfill
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{gobble}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+large 
+\backslash
+today}
+\backslash
+
+\backslash
+[3cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tableofcontents{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Security Services
+\end_layout
+
+\begin_layout Itemize
+Confidentiality: making informations unreadable to anyone except for the
+ intended receivers, who are able to reverse the encryption.
+ Note that confidentiality is different from privacy, that is when/how/where
+ confidentiality is employed or needed.
+\end_layout
+
+\begin_layout Itemize
+Authentication: is the mechanism that systems use to identify their users.
+ Note that authentication is different from authorization thath indicates
+ the actions permitted to an already authenticated user.
+\end_layout
+
+\begin_layout Itemize
+Data integrity: guarantees that data has not been tampered with.
+\end_layout
+
+\begin_layout Itemize
+Non-repudiation: prevents an entity from denying previous accordances.
+\end_layout
+
+\begin_layout Subsection
+Attacks on Cryptoscheme
+\end_layout
+
+\begin_layout Itemize
+Ciphertext-only attack (
+\series bold
+COA
+\series default
+): the attacker knows the ciphertext of a number of messages encrypted with
+ same key.
+\end_layout
+
+\begin_layout Itemize
+Known-plaintext attack (
+\series bold
+KPA
+\series default
+): the attacker knowns plain-ciphertext pairs, encrypted with same key.
+\end_layout
+
+\begin_layout Itemize
+Chosen-plaintext attack (
+\series bold
+CPA
+\series default
+): the attacker chooses a number of plaintexts to be encrypted (all with
+ the same unknown key) and obtains the corresponding ciphertexts.
+\end_layout
+
+\begin_layout Itemize
+Chosen-Ciphertext attack (
+\series bold
+CCA
+\series default
+): the attacker gathers information choosing a ciphertext and obtaining
+ its correct decryption under an unknown key (the same key for all messages).
+\end_layout
+
+\begin_layout Section
+Historical Ciphers
+\end_layout
+
+\begin_layout Subsection
+Monoalphabetic cipher
+\end_layout
+
+\begin_layout Subsubsection
+Shift cipher
+\end_layout
+
+\begin_layout Standard
+Given an alphabet 
+\begin_inset Formula $A=\left\{ ABCDEFGHIJKLMNOPQRSTUVWXYZ\right\} $
+\end_inset
+
+, each letter is identified with a number: 
+\begin_inset Formula $A=0,B=1,\ldots,Z=25$
+\end_inset
+
+ .
+ The message space M includes messages composed of a single letter.
+ The key of the cipher is a number 
+\begin_inset Formula $0\text{≤}k\text{≤}25$
+\end_inset
+
+.
+ The encryption replaces each plaintext letter by the letter which is 
+\begin_inset Formula $k$
+\end_inset
+
+ places forward in 
+\begin_inset Formula $A:c=p+k\;mod\;26$
+\end_inset
+
+, where p and c are the numbers denoting the positions of the corresponding
+ letters in A.
+\end_layout
+
+\begin_layout Subsubsection
+Monoalphabetic substitution cipher
+\end_layout
+
+\begin_layout Subsection
+Polialphabetic cipher
+\end_layout
+
+\begin_layout Subsubsection
+Polialphabetic substitution cipher
+\end_layout
+
+\begin_layout Subsubsection
+Vigenère cipher
+\end_layout
+
+\begin_layout Subsubsection
+Beale cipher
+\end_layout
+
+\begin_layout Subsection
+Permutation cipher
+\end_layout
+
+\begin_layout Section
+Perfect secrecy
+\end_layout
+
+\end_body
+\end_document
